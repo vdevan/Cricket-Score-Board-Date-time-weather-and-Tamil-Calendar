@@ -1,0 +1,17 @@
+ARDUINO IDE Issues
+
+IF you change your preference path, then Libraries will be installed in the preference path under libraries
+Normal IDE Library path is C:\Users\vdeva\AppData\Local\Arduino15\libraries. 
+Manage Libraries will only show the libraries installed on this path. 
+If you use the menu Sketch/Include Libraries, you will find a bunch of contributed libraries. These will not show in library folder. 
+If you have compiler issue, then use select the library from the contributed libraries. This will automatically add an #include path in your sketch. Use that include and delete the #include you have typed.
+To install libraries, always use the menu Sketch/include Folder/Add .zip file. This will properly install the library. Manual uploading will have the above issues.
+
+As for Visual studio it will only use libraries in C:\Users\vdeva\AppData\Local\Arduino15\libraries. 
+How do I add a library path to Visual Studio?
+To set this linker option in the Visual Studio development environment
+Open the project's Property Pages dialog box. For details, see Set C++ compiler and build properties in Visual Studio.
+Select the Configuration Properties > Linker > General property page.
+Modify the Additional Library Directories property.
+
+Note: you can delete C:\Users\vdeva\AppData\Roaming\arduino-ide to rebuild libraries

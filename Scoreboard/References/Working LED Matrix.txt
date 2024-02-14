@@ -1,0 +1,22 @@
+https://www.waveshare.com/wiki/RGB-Matrix-P2.5-64x64 //to try out for Pi - Current project on ESP32
+https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA  //Current Project based on this 
+https://github.com/bogd/esp32-morphing-clock //128 x 64 - Need to try out
+
+
+http://wiki.amperka.ru/projects:rgb-led-matrix-arduino  //Program using RGBMatrix - Does not work
+https://www.hackster.io/idreams/getting-started-with-rgb-matrix-panel-adaa49  //Need to try out
+https://marc.merlins.org/perso/arduino/post_2019-04-01_SmartMatrix_-SmartMatrix-Shield-v4-for-Teensy_-ESP32-shield-with-level-shifter_-and-SmartMatrix_GFX.html   //Marc Postings
+https://justanotherelectronicsblog.com/?p=636  // a good article on 64x64 matrix LED
+https://www.sparkfun.com/news/2650  //a good article on 64x64 matrix LED
+
+
+Notes on ESP32
+https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
+https://www.instructables.com/ESP32-Internal-Details-and-Pinout/
+https://esphome.io/devices/nodemcu_esp32.html
+
+Notes on OTA
+https://docs.arduino.cc/arduino-cloud/features/ota-getting-started/
+
+//Notes on Adafruit graphics
+https://learn.adafruit.com/adafruit-gfx-graphics-library/graphics-primitives
